@@ -1,0 +1,3 @@
+# Intermittent ECONNRESET Errors in Node.js HTTP Server
+
+This repository demonstrates a bug leading to intermittent `ECONNRESET` errors in a simple Node.js HTTP server. The root cause is subtle and may not be immediately apparent, highlighting the importance of robust error handling and logging in production environments.  The solution involves improving error handling to gracefully manage client disconnections and prevent server crashes.
